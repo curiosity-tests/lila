@@ -1,8 +1,6 @@
 name: Prune CodeQL caches
 
 on:
-  schedule:
-    - cron: '32 3 * * *'
   workflow_dispatch:
 
 concurrency:
